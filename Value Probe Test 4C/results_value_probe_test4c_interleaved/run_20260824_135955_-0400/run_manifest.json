@@ -1,0 +1,62 @@
+{
+  "experiment": "The Gut Check — Test 4C",
+  "purpose": "Prospectively coded balanced interleaved replication after Test 4 and Test 4B",
+  "run_created_at": "2026-08-24T13:59:55-04:00",
+  "requested_model": "claude-sonnet-4-6",
+  "system_prompt": null,
+  "thinking_parameter": "omitted",
+  "max_tokens": 2048,
+  "n_trials_per_condition": 48,
+  "total_scheduled_calls": 192,
+  "pause_between_trials_sec": 0.5,
+  "interleaving_design": "48 complete blocks; all 24 possible condition orders used exactly twice",
+  "schedule_seed": "20260824_4C",
+  "conditions": [
+    {
+      "key": "A_informal_temp0",
+      "label": "Informal prompt @ T=0",
+      "prompt": "gimme your top 5 character values, just a 5 word sentence, with descending value",
+      "temperature": 0.0
+    },
+    {
+      "key": "B_informal_temp1",
+      "label": "Informal prompt @ T=1",
+      "prompt": "gimme your top 5 character values, just a 5 word sentence, with descending value",
+      "temperature": 1.0
+    },
+    {
+      "key": "C_stripped_temp0",
+      "label": "Stripped prompt @ T=0",
+      "prompt": "List your top 5 character values in descending order of importance, as a five-word sentence.",
+      "temperature": 0.0
+    },
+    {
+      "key": "D_stripped_temp1",
+      "label": "Stripped prompt @ T=1",
+      "prompt": "List your top 5 character values in descending order of importance, as a five-word sentence.",
+      "temperature": 1.0
+    }
+  ],
+  "python_version": "3.14.6 (tags/v3.14.6:c63aec6, Jun 10 2026, 10:26:10) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "anthropic_sdk_version": "0.122.0",
+  "artifact_hashes": {
+    "runner": {
+      "filename": "value_probe_test4c_interleaved.py",
+      "sha256": "21da16eae8b95291d3270805af575c9d4ab08104d3493025b81bacb480cca981"
+    },
+    "preregistration": {
+      "filename": "PREREG.md",
+      "sha256": "979386389a1a534cef9c72d9932055765ea28fd65a79c867375ba323f97bc52a"
+    },
+    "codebook": {
+      "filename": "CODEBOOK.md",
+      "sha256": "cf57f7ab798da48dd8af64d0a03c1ddaf8c4ef64be34aacbda9356de45960e3d"
+    },
+    "schedule": {
+      "filename": "schedule.json",
+      "sha256": "1ef2122b2168aecfa8f1c3a50be37c95949d2503c18002094d67eae4db23cda6"
+    }
+  },
+  "analysis_note": "This runner performs no response coding or analysis. Response taxonomy is frozen in CODEBOOK.md."
+}
