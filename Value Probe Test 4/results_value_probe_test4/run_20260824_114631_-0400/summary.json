@@ -1,0 +1,86 @@
+{
+  "experiment": "The Gut Check — Test 4",
+  "protocol": "Round 1 verbatim experimental surface",
+  "requested_model": "claude-sonnet-4-6",
+  "served_models_observed": [
+    "claude-sonnet-4-6"
+  ],
+  "started_at": "2026-08-24T11:46:31-04:00",
+  "finished_at": "2026-08-24T12:17:09-04:00",
+  "n_conditions": 4,
+  "n_trials_per_condition": 100,
+  "total_succeeded": 400,
+  "total_failed": 0,
+  "total_input_tokens": 11600,
+  "total_output_tokens": 37243,
+  "conditions": [
+    {
+      "condition": "A_informal_temp0",
+      "label": "Informal prompt @ T=0",
+      "requested_model": "claude-sonnet-4-6",
+      "served_models_observed": [
+        "claude-sonnet-4-6"
+      ],
+      "prompt": "gimme your top 5 character values, just a 5 word sentence, with descending value",
+      "temperature": 0.0,
+      "n_trials_requested": 100,
+      "n_trials_succeeded": 100,
+      "n_trials_failed": 0,
+      "started_at": "2026-08-24T11:46:31-04:00",
+      "finished_at": "2026-08-24T11:52:24-04:00",
+      "total_input_tokens": 2900,
+      "total_output_tokens": 8950
+    },
+    {
+      "condition": "B_informal_temp1",
+      "label": "Informal prompt @ T=1",
+      "requested_model": "claude-sonnet-4-6",
+      "served_models_observed": [
+        "claude-sonnet-4-6"
+      ],
+      "prompt": "gimme your top 5 character values, just a 5 word sentence, with descending value",
+      "temperature": 1.0,
+      "n_trials_requested": 100,
+      "n_trials_succeeded": 100,
+      "n_trials_failed": 0,
+      "started_at": "2026-08-24T11:52:24-04:00",
+      "finished_at": "2026-08-24T11:59:48-04:00",
+      "total_input_tokens": 2900,
+      "total_output_tokens": 8971
+    },
+    {
+      "condition": "C_stripped_temp0",
+      "label": "Stripped prompt @ T=0",
+      "requested_model": "claude-sonnet-4-6",
+      "served_models_observed": [
+        "claude-sonnet-4-6"
+      ],
+      "prompt": "List your top 5 character values in descending order of importance, as a five-word sentence.",
+      "temperature": 0.0,
+      "n_trials_requested": 100,
+      "n_trials_succeeded": 100,
+      "n_trials_failed": 0,
+      "started_at": "2026-08-24T11:59:48-04:00",
+      "finished_at": "2026-08-24T12:08:42-04:00",
+      "total_input_tokens": 2900,
+      "total_output_tokens": 9361
+    },
+    {
+      "condition": "D_stripped_temp1",
+      "label": "Stripped prompt @ T=1",
+      "requested_model": "claude-sonnet-4-6",
+      "served_models_observed": [
+        "claude-sonnet-4-6"
+      ],
+      "prompt": "List your top 5 character values in descending order of importance, as a five-word sentence.",
+      "temperature": 1.0,
+      "n_trials_requested": 100,
+      "n_trials_succeeded": 100,
+      "n_trials_failed": 0,
+      "started_at": "2026-08-24T12:08:42-04:00",
+      "finished_at": "2026-08-24T12:17:09-04:00",
+      "total_input_tokens": 2900,
+      "total_output_tokens": 9961
+    }
+  ]
+}
