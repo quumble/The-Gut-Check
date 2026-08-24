@@ -1,0 +1,69 @@
+{
+  "model": "claude-sonnet-4-6",
+  "started_at": "2026-04-23 15:23:25",
+  "finished_at": "2026-04-23 15:55:36",
+  "n_conditions": 4,
+  "n_trials_per_condition": 100,
+  "total_succeeded": 400,
+  "total_failed": 0,
+  "total_input_tokens": 11600,
+  "total_output_tokens": 32653,
+  "conditions": [
+    {
+      "condition": "A_informal_temp0",
+      "label": "Informal prompt @ T=0",
+      "model": "claude-sonnet-4-6",
+      "prompt": "gimme your top 5 character values, just a 5 word sentence, with descending value",
+      "temperature": 0.0,
+      "n_trials_requested": 100,
+      "n_trials_succeeded": 100,
+      "n_trials_failed": 0,
+      "started_at": "2026-04-23 15:23:25",
+      "finished_at": "2026-04-23 15:32:37",
+      "total_input_tokens": 2900,
+      "total_output_tokens": 8935
+    },
+    {
+      "condition": "B_informal_temp1",
+      "label": "Informal prompt @ T=1",
+      "model": "claude-sonnet-4-6",
+      "prompt": "gimme your top 5 character values, just a 5 word sentence, with descending value",
+      "temperature": 1.0,
+      "n_trials_requested": 100,
+      "n_trials_succeeded": 100,
+      "n_trials_failed": 0,
+      "started_at": "2026-04-23 15:32:37",
+      "finished_at": "2026-04-23 15:39:48",
+      "total_input_tokens": 2900,
+      "total_output_tokens": 8941
+    },
+    {
+      "condition": "C_stripped_temp0",
+      "label": "Stripped prompt @ T=0",
+      "model": "claude-sonnet-4-6",
+      "prompt": "List your top 5 character values in descending order of importance, as a five-word sentence.",
+      "temperature": 0.0,
+      "n_trials_requested": 100,
+      "n_trials_succeeded": 100,
+      "n_trials_failed": 0,
+      "started_at": "2026-04-23 15:39:48",
+      "finished_at": "2026-04-23 15:48:12",
+      "total_input_tokens": 2900,
+      "total_output_tokens": 7175
+    },
+    {
+      "condition": "D_stripped_temp1",
+      "label": "Stripped prompt @ T=1",
+      "model": "claude-sonnet-4-6",
+      "prompt": "List your top 5 character values in descending order of importance, as a five-word sentence.",
+      "temperature": 1.0,
+      "n_trials_requested": 100,
+      "n_trials_succeeded": 100,
+      "n_trials_failed": 0,
+      "started_at": "2026-04-23 15:48:12",
+      "finished_at": "2026-04-23 15:55:36",
+      "total_input_tokens": 2900,
+      "total_output_tokens": 7602
+    }
+  ]
+}
