@@ -4,36 +4,36 @@ Fill this out for the actual collection run. Preserve deviations rather than cle
 
 ## Operator / environment
 
-- Date:
-- Operator:
-- Machine / OS:
-- Python version:
-- Command used:
+- Date: 8/24/26
+- Operator: Bo Chesterton
+- Machine / OS: Windows battlestation 9000b (steam status: invisible)
+- Python version: 3.14.6
+- Command used: python value_probe_test5_contemporaneous.py
 - Working directory:
 
 ## Pre-run state
 
-- ChatGPT `PREREG.md` frozen before collection: yes / no / note
-- ChatGPT `ANALYSIS_LENS.md` frozen before collection: yes / no / note
-- `CODEBOOK.md` frozen before collection: yes / no / note
-- Claude preregistration frozen before collection: yes / no / note
+- ChatGPT `PREREG.md` frozen before collection: **yes** / no / note
+- ChatGPT `ANALYSIS_LENS.md` frozen before collection: **yes** / no / note
+- `CODEBOOK.md` frozen before collection: **yes** / no / note
+- Claude preregistration frozen before collection: **yes** / no / note
 - Claude preregistration filename / commit if applicable:
-- ChatGPT had seen Claude's Test 5 preregistration before its own prereg was frozen: yes / no
-- Claude had seen ChatGPT's finalized Test 5 preregistration before its own prereg was frozen: yes / no / unknown
+- ChatGPT had seen Claude's Test 5 preregistration before its own prereg was frozen: yes / **no**
+- Claude had seen ChatGPT's finalized Test 5 preregistration before its own prereg was frozen: yes / **no** / unknown
 
 ## Smoke testing
 
-- Neutral smoke test performed: yes / no
-- Time:
-- Command:
+- Neutral smoke test performed: **yes** / no
+- Time: 4:20 EST
+- Command: not gonna fill all this. smoke test worked.
 - Prompt used:
 - Claude result / API status:
 - GPT result / API status:
-- Any experimental prompt used during smoke testing: yes / no
+- Any experimental prompt used during smoke testing: yes / **no**
 
 ## Collection
 
-- Experimental run start time:
+- Experimental run start time:4:30 EST
 - Experimental run finish time:
 - Run directory:
 - Schedule seed observed:
@@ -46,8 +46,8 @@ Fill this out for the actual collection run. Preserve deviations rather than cle
 ## Exposure during collection
 
 - Response text printed by runner: should be no
-- Operator intentionally inspected any Test 5 response text before completion: yes / no
-- If yes, when / why / scope:
+- Operator intentionally inspected any Test 5 response text before completion: yes / **no**
+- If yes, when / why / scope: I dont do that, skate or die
 - ChatGPT first shown Claude's Test 5 preregistration:
 - ChatGPT first shown Test 5 response text:
 - Claude first shown Test 5 response text:
