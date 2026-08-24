@@ -1,0 +1,93 @@
+{
+  "experiment": "The Gut Check — Test 4B",
+  "protocol": "Balanced interleaved replication of Test 4 experimental surface",
+  "interleaving_design": "all 24 possible condition orders used exactly twice; block order shuffled before first API call",
+  "schedule_seed": 20260824,
+  "requested_model": "claude-sonnet-4-6",
+  "served_models_observed": [
+    "claude-sonnet-4-6"
+  ],
+  "started_at": "2026-08-24T12:50:16-04:00",
+  "finished_at": "2026-08-24T13:04:50-04:00",
+  "n_conditions": 4,
+  "n_trials_per_condition": 48,
+  "total_scheduled": 192,
+  "total_succeeded": 192,
+  "total_failed": 0,
+  "total_input_tokens": 5568,
+  "total_output_tokens": 16752,
+  "conditions": [
+    {
+      "condition": "A_informal_temp0",
+      "label": "Informal prompt @ T=0",
+      "requested_model": "claude-sonnet-4-6",
+      "served_models_observed": [
+        "claude-sonnet-4-6"
+      ],
+      "prompt": "gimme your top 5 character values, just a 5 word sentence, with descending value",
+      "temperature": 0.0,
+      "n_trials_requested": 48,
+      "n_trials_succeeded": 48,
+      "n_trials_failed": 0,
+      "first_trial_started_at": "2026-08-24T12:50:16-04:00",
+      "last_trial_finished_at": "2026-08-24T13:04:39-04:00",
+      "note": "Trials were interleaved throughout the full run; timestamps do not define a contiguous condition interval.",
+      "total_input_tokens": 1392,
+      "total_output_tokens": 4303
+    },
+    {
+      "condition": "B_informal_temp1",
+      "label": "Informal prompt @ T=1",
+      "requested_model": "claude-sonnet-4-6",
+      "served_models_observed": [
+        "claude-sonnet-4-6"
+      ],
+      "prompt": "gimme your top 5 character values, just a 5 word sentence, with descending value",
+      "temperature": 1.0,
+      "n_trials_requested": 48,
+      "n_trials_succeeded": 48,
+      "n_trials_failed": 0,
+      "first_trial_started_at": "2026-08-24T12:50:24-04:00",
+      "last_trial_finished_at": "2026-08-24T13:04:49-04:00",
+      "note": "Trials were interleaved throughout the full run; timestamps do not define a contiguous condition interval.",
+      "total_input_tokens": 1392,
+      "total_output_tokens": 4312
+    },
+    {
+      "condition": "C_stripped_temp0",
+      "label": "Stripped prompt @ T=0",
+      "requested_model": "claude-sonnet-4-6",
+      "served_models_observed": [
+        "claude-sonnet-4-6"
+      ],
+      "prompt": "List your top 5 character values in descending order of importance, as a five-word sentence.",
+      "temperature": 0.0,
+      "n_trials_requested": 48,
+      "n_trials_succeeded": 48,
+      "n_trials_failed": 0,
+      "first_trial_started_at": "2026-08-24T12:50:27-04:00",
+      "last_trial_finished_at": "2026-08-24T13:04:46-04:00",
+      "note": "Trials were interleaved throughout the full run; timestamps do not define a contiguous condition interval.",
+      "total_input_tokens": 1392,
+      "total_output_tokens": 3989
+    },
+    {
+      "condition": "D_stripped_temp1",
+      "label": "Stripped prompt @ T=1",
+      "requested_model": "claude-sonnet-4-6",
+      "served_models_observed": [
+        "claude-sonnet-4-6"
+      ],
+      "prompt": "List your top 5 character values in descending order of importance, as a five-word sentence.",
+      "temperature": 1.0,
+      "n_trials_requested": 48,
+      "n_trials_succeeded": 48,
+      "n_trials_failed": 0,
+      "first_trial_started_at": "2026-08-24T12:50:19-04:00",
+      "last_trial_finished_at": "2026-08-24T13:04:42-04:00",
+      "note": "Trials were interleaved throughout the full run; timestamps do not define a contiguous condition interval.",
+      "total_input_tokens": 1392,
+      "total_output_tokens": 4148
+    }
+  ]
+}

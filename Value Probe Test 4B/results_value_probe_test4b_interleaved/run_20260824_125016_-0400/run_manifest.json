@@ -1,0 +1,49 @@
+{
+  "experiment": "The Gut Check — Test 4B",
+  "purpose": "Balanced interleaved replication of Test 4 to remove sequential condition-by-clock-time confound",
+  "run_created_at": "2026-08-24T12:50:16-04:00",
+  "requested_model": "claude-sonnet-4-6",
+  "model_note": "claude-sonnet-4-6 is intentionally preserved because the original protocol requires explicit temperature 0 and 1.",
+  "system_prompt": null,
+  "thinking_parameter": "omitted",
+  "max_tokens": 2048,
+  "n_trials_per_condition": 48,
+  "total_scheduled_calls": 192,
+  "pause_between_trials_sec": 0.5,
+  "interleaving_design": "48 complete blocks; all 24 possible condition orders used exactly twice",
+  "schedule_seed": 20260824,
+  "schedule_filename": "schedule.json",
+  "schedule_sha256": "4f2bd858f75bb42a45135991e2057faa034b41e78a5597711820c603347d63f7",
+  "conditions": [
+    {
+      "key": "A_informal_temp0",
+      "label": "Informal prompt @ T=0",
+      "prompt": "gimme your top 5 character values, just a 5 word sentence, with descending value",
+      "temperature": 0.0
+    },
+    {
+      "key": "B_informal_temp1",
+      "label": "Informal prompt @ T=1",
+      "prompt": "gimme your top 5 character values, just a 5 word sentence, with descending value",
+      "temperature": 1.0
+    },
+    {
+      "key": "C_stripped_temp0",
+      "label": "Stripped prompt @ T=0",
+      "prompt": "List your top 5 character values in descending order of importance, as a five-word sentence.",
+      "temperature": 0.0
+    },
+    {
+      "key": "D_stripped_temp1",
+      "label": "Stripped prompt @ T=1",
+      "prompt": "List your top 5 character values in descending order of importance, as a five-word sentence.",
+      "temperature": 1.0
+    }
+  ],
+  "python_version": "3.14.6 (tags/v3.14.6:c63aec6, Jun 10 2026, 10:26:10) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "anthropic_sdk_version": "0.122.0",
+  "script_filename": "value_probe_test4b_interleaved.py",
+  "script_sha256": "0dce0907d4db65f037eb500fd83e16f12331f05b42b61c496c5c92ebe7759d87",
+  "analysis_note": "This runner performs no response coding or analysis."
+}
