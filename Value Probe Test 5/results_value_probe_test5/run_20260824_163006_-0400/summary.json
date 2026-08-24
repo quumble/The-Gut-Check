@@ -1,0 +1,205 @@
+{
+  "experiment": "The Gut Check \u2014 Test 5",
+  "protocol": "Contemporaneous matched Claude/GPT cross-family transfer test",
+  "schedule_seed": "20260824_T5_CONTEMPORANEOUS",
+  "started_at": "2026-08-24T16:30:06.332-04:00",
+  "finished_at": "2026-08-24T16:54:18.615-04:00",
+  "requested_models": {
+    "claude": "claude-sonnet-4-6",
+    "gpt": "gpt-5.6-terra"
+  },
+  "n_providers": 2,
+  "n_conditions": 4,
+  "n_trials_per_condition_per_provider": 48,
+  "total_scheduled": 384,
+  "total_succeeded": 384,
+  "total_failed": 0,
+  "provider_summaries": [
+    {
+      "provider": "claude",
+      "requested_model": "claude-sonnet-4-6",
+      "served_models_observed": [
+        "claude-sonnet-4-6"
+      ],
+      "scheduled": 192,
+      "succeeded": 192,
+      "failed": 0,
+      "total_input_tokens": 5568,
+      "total_output_tokens": 16346,
+      "total_reasoning_tokens": 0
+    },
+    {
+      "provider": "gpt",
+      "requested_model": "gpt-5.6-terra",
+      "served_models_observed": [
+        "gpt-5.6-terra"
+      ],
+      "scheduled": 192,
+      "succeeded": 192,
+      "failed": 0,
+      "total_input_tokens": 4800,
+      "total_output_tokens": 2392,
+      "total_reasoning_tokens": 0
+    }
+  ],
+  "cells": [
+    {
+      "provider": "claude",
+      "condition": "A_informal_temp0",
+      "label": "Informal prompt @ T=0",
+      "requested_model": "claude-sonnet-4-6",
+      "served_models_observed": [
+        "claude-sonnet-4-6"
+      ],
+      "prompt": "gimme your top 5 character values, just a 5 word sentence, with descending value",
+      "temperature": 0.0,
+      "n_trials_requested": 48,
+      "n_trials_succeeded": 48,
+      "n_trials_failed": 0,
+      "total_input_tokens": 1392,
+      "total_output_tokens": 4299,
+      "total_reasoning_tokens": 0,
+      "total_response_characters": 14180,
+      "total_response_words_whitespace": 2256
+    },
+    {
+      "provider": "claude",
+      "condition": "B_informal_temp1",
+      "label": "Informal prompt @ T=1",
+      "requested_model": "claude-sonnet-4-6",
+      "served_models_observed": [
+        "claude-sonnet-4-6"
+      ],
+      "prompt": "gimme your top 5 character values, just a 5 word sentence, with descending value",
+      "temperature": 1.0,
+      "n_trials_requested": 48,
+      "n_trials_succeeded": 48,
+      "n_trials_failed": 0,
+      "total_input_tokens": 1392,
+      "total_output_tokens": 4293,
+      "total_reasoning_tokens": 0,
+      "total_response_characters": 14347,
+      "total_response_words_whitespace": 2257
+    },
+    {
+      "provider": "claude",
+      "condition": "C_formal_temp0",
+      "label": "Formal prompt @ T=0",
+      "requested_model": "claude-sonnet-4-6",
+      "served_models_observed": [
+        "claude-sonnet-4-6"
+      ],
+      "prompt": "List your top 5 character values in descending order of importance, as a five-word sentence.",
+      "temperature": 0.0,
+      "n_trials_requested": 48,
+      "n_trials_succeeded": 48,
+      "n_trials_failed": 0,
+      "total_input_tokens": 1392,
+      "total_output_tokens": 3736,
+      "total_reasoning_tokens": 0,
+      "total_response_characters": 14764,
+      "total_response_words_whitespace": 2076
+    },
+    {
+      "provider": "claude",
+      "condition": "D_formal_temp1",
+      "label": "Formal prompt @ T=1",
+      "requested_model": "claude-sonnet-4-6",
+      "served_models_observed": [
+        "claude-sonnet-4-6"
+      ],
+      "prompt": "List your top 5 character values in descending order of importance, as a five-word sentence.",
+      "temperature": 1.0,
+      "n_trials_requested": 48,
+      "n_trials_succeeded": 48,
+      "n_trials_failed": 0,
+      "total_input_tokens": 1392,
+      "total_output_tokens": 4018,
+      "total_reasoning_tokens": 0,
+      "total_response_characters": 16226,
+      "total_response_words_whitespace": 2433
+    },
+    {
+      "provider": "gpt",
+      "condition": "A_informal_temp0",
+      "label": "Informal prompt @ T=0",
+      "requested_model": "gpt-5.6-terra",
+      "served_models_observed": [
+        "gpt-5.6-terra"
+      ],
+      "prompt": "gimme your top 5 character values, just a 5 word sentence, with descending value",
+      "temperature": 0.0,
+      "n_trials_requested": 48,
+      "n_trials_succeeded": 48,
+      "n_trials_failed": 0,
+      "total_input_tokens": 1200,
+      "total_output_tokens": 448,
+      "total_reasoning_tokens": 0,
+      "total_response_characters": 2528,
+      "total_response_words_whitespace": 240
+    },
+    {
+      "provider": "gpt",
+      "condition": "B_informal_temp1",
+      "label": "Informal prompt @ T=1",
+      "requested_model": "gpt-5.6-terra",
+      "served_models_observed": [
+        "gpt-5.6-terra"
+      ],
+      "prompt": "gimme your top 5 character values, just a 5 word sentence, with descending value",
+      "temperature": 1.0,
+      "n_trials_requested": 48,
+      "n_trials_succeeded": 48,
+      "n_trials_failed": 0,
+      "total_input_tokens": 1200,
+      "total_output_tokens": 535,
+      "total_reasoning_tokens": 0,
+      "total_response_characters": 2485,
+      "total_response_words_whitespace": 240
+    },
+    {
+      "provider": "gpt",
+      "condition": "C_formal_temp0",
+      "label": "Formal prompt @ T=0",
+      "requested_model": "gpt-5.6-terra",
+      "served_models_observed": [
+        "gpt-5.6-terra"
+      ],
+      "prompt": "List your top 5 character values in descending order of importance, as a five-word sentence.",
+      "temperature": 0.0,
+      "n_trials_requested": 48,
+      "n_trials_succeeded": 48,
+      "n_trials_failed": 0,
+      "total_input_tokens": 1200,
+      "total_output_tokens": 726,
+      "total_reasoning_tokens": 0,
+      "total_response_characters": 2488,
+      "total_response_words_whitespace": 240
+    },
+    {
+      "provider": "gpt",
+      "condition": "D_formal_temp1",
+      "label": "Formal prompt @ T=1",
+      "requested_model": "gpt-5.6-terra",
+      "served_models_observed": [
+        "gpt-5.6-terra"
+      ],
+      "prompt": "List your top 5 character values in descending order of importance, as a five-word sentence.",
+      "temperature": 1.0,
+      "n_trials_requested": 48,
+      "n_trials_succeeded": 48,
+      "n_trials_failed": 0,
+      "total_input_tokens": 1200,
+      "total_output_tokens": 683,
+      "total_reasoning_tokens": 0,
+      "total_response_characters": 2501,
+      "total_response_words_whitespace": 240
+    }
+  ],
+  "matched_pairs": {
+    "n_pairs": 192,
+    "n_pairs_both_succeeded": 192,
+    "mean_pair_gap_seconds": 0.5004254015608846,
+    "max_pair_gap_seconds": 0.5048011001199484
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "experiment": "The Gut Check \u2014 Test 5",
+  "purpose": "Contemporaneous Claude/GPT cross-family transfer test",
+  "run_created_at": "2026-08-24T16:30:06.304-04:00",
+  "requested_models": {
+    "claude": "claude-sonnet-4-6",
+    "gpt": "gpt-5.6-terra"
+  },
+  "system_or_developer_instruction": null,
+  "claude_thinking_parameter": "omitted",
+  "gpt_reasoning": {
+    "effort": "none"
+  },
+  "gpt_tools": [],
+  "gpt_store": false,
+  "max_output_tokens_surface": 2048,
+  "n_trials_per_condition_per_provider": 48,
+  "total_scheduled_calls": 384,
+  "pause_between_calls_sec": 0.5,
+  "schedule_seed": "20260824_T5_CONTEMPORANEOUS",
+  "conditions": [
+    {
+      "key": "A_informal_temp0",
+      "label": "Informal prompt @ T=0",
+      "prompt": "gimme your top 5 character values, just a 5 word sentence, with descending value",
+      "temperature": 0.0
+    },
+    {
+      "key": "B_informal_temp1",
+      "label": "Informal prompt @ T=1",
+      "prompt": "gimme your top 5 character values, just a 5 word sentence, with descending value",
+      "temperature": 1.0
+    },
+    {
+      "key": "C_formal_temp0",
+      "label": "Formal prompt @ T=0",
+      "prompt": "List your top 5 character values in descending order of importance, as a five-word sentence.",
+      "temperature": 0.0
+    },
+    {
+      "key": "D_formal_temp1",
+      "label": "Formal prompt @ T=1",
+      "prompt": "List your top 5 character values in descending order of importance, as a five-word sentence.",
+      "temperature": 1.0
+    }
+  ],
+  "python_version": "3.14.6 (tags/v3.14.6:c63aec6, Jun 10 2026, 10:26:10) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "anthropic_sdk_version": "0.122.0",
+  "openai_sdk_version": "3.2.0",
+  "artifact_hashes": {
+    "runner": {
+      "filename": "value_probe_test5_contemporaneous.py",
+      "sha256": "d5f9167e3c3be3612e55938f22de9e30d86c5b64b5c59508854e26d554a1ba4c"
+    },
+    "preregistration": {
+      "filename": "PREREG.md",
+      "sha256": "cd7c7b574791bed72c6a257617a72294641ab37138cdddfd80f6a9b436d946f7"
+    },
+    "codebook": {
+      "filename": "CODEBOOK.md",
+      "sha256": "1ca1012a0f57c1921f177dd97c2b95ce502466b91b3d1d5acc30016bed9d6541"
+    },
+    "analysis_lens": {
+      "filename": "ANALYSIS_LENS.md",
+      "sha256": "95b28aef18fcd392ab11649bcf66108c25badf45f40fa4264388301fe89acc04"
+    },
+    "provider_matching": {
+      "filename": "PROVIDER_MATCHING.md",
+      "sha256": "9facb0b56ddf3f96a2270498073746f0aafe2092bbcdc38b8ca55eff64e87a45"
+    },
+    "schedule": {
+      "filename": "schedule.json",
+      "sha256": "b2e0d1ccc60b7c30140c68a507419bb18af60f328d63cf607d218dc251ac9d48"
+    }
+  },
+  "analysis_note": "Collection only; no response coding or substantive analysis."
+}
