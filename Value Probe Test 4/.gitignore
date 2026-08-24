@@ -1,0 +1,5 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+results_value_probe_test4/
