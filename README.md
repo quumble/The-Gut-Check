@@ -233,3 +233,5 @@ The next logical branch is either:
 
 - a prospectively coded Claude follow-up using a frozen response taxonomy; or
 - a cross-family extension using an OpenAI model while preserving the same prompt surface as closely as the API allows.
+
+official website https://bochesterton.com/
